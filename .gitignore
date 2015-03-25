@@ -1,3 +1,4 @@
 *.pyc
 trezor/mnemonic/
 wallet.dat
+.idea

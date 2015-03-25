@@ -104,7 +104,7 @@ class DerivationCache(object):
         
         if address_n == []:
             n = types.HDNodeType()
-            n.CopyFrom(self.known_root_node)
+            n.CopyFrom(cls.known_root_node)
             return n
         
         for i in cls.cache.keys():
